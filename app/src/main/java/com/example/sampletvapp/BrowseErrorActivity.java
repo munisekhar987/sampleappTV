@@ -33,7 +33,7 @@ public class BrowseErrorActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.main_browse_fragment, new MainFragment())
+                    .replace(R.id.main_browse_fragment, new MainFragment_OR())
                     .commitNow();
         }
         testError();
